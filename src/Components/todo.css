@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(29, 27, 27);
+}
+
+.To-do-list{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.h1{
+  font-size: 4rem;
+}
+
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+}
+
+.Add-Button{
+  background-color: rgb(41, 221, 41);
+}
+.Add-Button:hover{
+  background-color: rgb(12, 88, 12);
+}
+.Delete-button{
+  background-color: rgb(249, 3, 11);
+}
+.Delete-button:hover{
+  background-color: rgb(153, 22, 22);
+}
+.Move-button{
+    background-color: rgb(120, 32, 221);
+}
+.Move-button:hover{
+  background-color: rgb(189, 228, 189);
+}
+
+input[type="text"]{
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 20x soliday black;
+    border-radius: 5px;
+    color: bisque;
+}
+ol{
+    padding: 0;
+}
+li{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: white;
+    margin-bottom: 10px;
+    border: 3px solid rgba(48, 46, 46, 0.353);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+
+}
+
+.text{
+    flex:1;
+}
+
+.Delete-button,.Move-button{
+    padding: 8px;
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
